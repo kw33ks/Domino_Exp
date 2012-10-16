@@ -1,0 +1,6 @@
+<% @users.each do |user| %>
+	
+	<span><%= link_to user.name, user %></span>	
+	<%= pluralize(user.dominos.count, 'domino')%>
+
+	<% end %>

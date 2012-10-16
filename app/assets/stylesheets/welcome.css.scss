@@ -1,0 +1,136 @@
+// Place all the styles related to the welcome controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* copied from landing.css */
+
+
+
+
+/*header elements*/
+
+
+
+header {
+	margin:0 auto;
+	width:1000px;
+	margin-bottom: 35px;
+}
+
+#navtop{
+	text-align: right;
+	line-height: 70px;
+	margin-right:0px;
+	height:70px;
+	width: 1000px;
+	background-color: #555555;
+}
+ 
+#banner {
+      margin-top: 70px;
+      margin-bottom: 40px;
+      width:1000px;
+      height:190px;
+      }
+
+
+/*"Have a domino?"" elements*/
+
+.arrow{
+	float: right;
+	margin-right: 65px;
+	margin-top: 6px
+}
+
+.shadow {
+  -moz-box-shadow:    3px 3px 5px 6px #bbb;
+  -webkit-box-shadow: 3px 3px 5px 6px #bbb;
+  box-shadow:         3px 3px 5px 6px #bbb;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+
+/*"Mission"" elements*/
+
+#vidcontainer {
+	display: table-cell;
+	vertical-align: middle;
+	height:200px;
+	width: 320px;
+	background: black;
+}
+
+
+
+/*"Request" elements*/
+
+
+
+/*Footer elements*/
+
+.footwrap{
+	margin-top: 90px;
+}
+
+.footer{
+	text-align: left;
+	width: 100%;
+	margin-top: 15px;
+}
+
+
+/*Spacers*/
+
+.spacer {
+	margin-top: 12.5px;
+}
+
+.spacer2 {
+	margin-top: 5px;
+}
+
+.inputmargin {
+	margin-bottom: -9px;
+}
+
+
+/*generic elements*/
+
+ul {
+	list-style-type: none;
+	text-align: center;
+	font-size: 15;
+	color: CCCCCC;
+}
+
+li{
+	display: inline;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+h1{
+	text-align: center;
+}
+
+
+
+h3{
+	text-align: center;
+}
+
+
+body {
+	height:100%;
+	margin:0 auto;
+	margin-top:10px;
+	width:1000px;
+}
+
+img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+

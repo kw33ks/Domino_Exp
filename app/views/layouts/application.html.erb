@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,200italic,400italic' rel='stylesheet' type='text/css'>
+
+  	<title>The Domino Experiment</title>
+  		<%= stylesheet_link_tag    "application", :media => "all" %>
+  		<%= javascript_include_tag "application" %>
+  		<%= csrf_meta_tags %>
+</head>
+
+<body>
+
+	<header>
+
+	<div class="navbar navbar-fixed-top navbar-inverse">
+		<div class="navbar-inner">
+			<ul class="nav pull-left">
+				<li><%= link_to "Home", root_path %></li>
+				<li><%= link_to "Log", welcome_log_path %></li>
+				<li><%= link_to "Track", welcome_track_path %></li>
+				<li><%= link_to "Request", welcome_request_path %></li>
+				<li><%= link_to "Donate", welcome_donate_path %></li>
+			</ul>
+			<ul class="nav pull-right">
+				<li><a href="#">Sign Up</a></li>
+			</ul>
+		</div>
+	</div>
+
+	</header>
+
+<%= yield %>
+
+<h4><%= link_to "Users", users_path %>
+
+
+<ul>
+	<li><%= link_to "About", welcome_about_path %></li>
+	<li><%= link_to "FAQ", welcome_faq_path %></li>
+	<li><%= link_to "Contact", welcome_contact_path %></li>	
+	<li><%= link_to "Legal", welcome_legal_path %></li>
+</ul> 
+
+</body>
+</html>

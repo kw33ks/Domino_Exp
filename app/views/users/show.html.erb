@@ -1,0 +1,14 @@
+<% plural = @user.dominos.count == 1 ? "" : "s"%>  
+
+<%if @user.dominos.count == 0%>
+	
+	You don't have any dominos yet. Request one <%= link_to "here", welcome_request_path %>!
+
+<%else%>
+	<%= @user.name %>'s Domino<%= plural %>:
+
+	<% @user.dominos.each do |domino| %>
+	<%= link_to domino.name, [@user, domino] %>
+	<% end %> 
+
+<%end%>	
