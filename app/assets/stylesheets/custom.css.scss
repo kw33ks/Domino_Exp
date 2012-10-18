@@ -13,6 +13,19 @@ background-color: transparent;
 width: 900px;
 }
 
+#buttonwrap {
+float:left;
+}
+
+#inputappendwrap {
+width: 150px;
+margin: 0 auto;
+}
+
+.input-append {
+width: 200px;
+}
+
 
 table {
 margin-top: 15px;
@@ -54,6 +67,14 @@ font-family: 'Source Sans Pro', sans-serif;
 font-weight: 700;
 font-size: 30px;
 line-height: 60px;
+}
+
+h4 {
+	font-size: 20px;
+	font-weight: 300;
+	margin-top: 10px;
+	margin-bottom: 15px;
+
 }
 
 li {
