@@ -15,7 +15,7 @@
 
 	<div class="navbar navbar-fixed-top navbar-inverse">
 		<ul class="nav pull-right">
-				<li><a href="#">Sign Up</a></li>
+				<li><%= link_to "Sign Up", signup_path %></li>
 			</ul>
 
 		<div class="navbar-inner">
@@ -35,7 +35,7 @@
 <%= yield %>
 
 <div id="line">
-<img src="assets/line.png"/>
+<%= image_tag ("line.png") %>	
 </div>
 
 <ul>
