@@ -1,7 +1,9 @@
 html {
      background: url(whitebkg.jpg) repeat;
      background-color: transparent;
-     height: 100%
+     height: 100%;
+     margin-right: 25px;
+	 margin-left: 25px
  }
 
 body {
@@ -62,7 +64,7 @@ h2 {
 font-family: 'Source Sans Pro', sans-serif;
 font-style: italic;
 font-weight: 200;
-font-size: 40px;
+font-size: 35px;
 margin-bottom: 50px;
 text-align: center;
 }
@@ -70,7 +72,7 @@ text-align: center;
 h3 {
 font-family: 'Source Sans Pro', sans-serif;
 font-weight: 700;
-font-size: 30px;
+font-size: 40px;
 line-height: 60px;
 }
 
